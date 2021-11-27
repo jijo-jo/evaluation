@@ -1,11 +1,11 @@
 const express = require('express');
 const router = express.Router();
-const staffController = require('../controller/staff.controller');
+const assetController = require('../controller/asset.controller');
 
-router.post('/', staffController.addStaffs);
-router.get('/', staffController.findStaffs);
-router.get('/:id', staffController.findStaffById);
-router.put('/:id', staffController.updateStaff);
-router.delete('/:id', staffController.deleteById);
+router.post('/', assetController.addAss);
+router.get('/', assetController.findAssets);
+router.get('/:id', assetController.findAssets);
+router.put('/:id', assetController.updateAsset);
+router.delete('/:id', assetController.deleteById);
 
 module.exports = router;
