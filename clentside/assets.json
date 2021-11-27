@@ -1,0 +1,17 @@
+{
+  "assets": [
+    {
+      "id": 1,
+      "type": "Mobile",
+      "vendor": "MI",
+      "class": "SW",
+      "model": "MI002785",
+      "snumber": "12345678",
+      "myyear": "2010",
+      "pdate": "12/03/21",
+      "waranty": "2",
+      "from": "12/03/15",
+      "to": "31/1/22"
+    }
+  ]
+}
